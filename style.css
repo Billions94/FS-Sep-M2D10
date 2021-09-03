@@ -1,0 +1,17 @@
+form.form-inline {
+    padding-right: 0.9em;
+    color: white;
+}
+
+div.col-4.before::before {
+    content: " ";
+    position: absolute;
+    color: black;
+    background-color: black;
+    height: 41px;
+    width: 1px;
+    top: 8px;
+    bottom: 0;
+    left: 3px;
+    right: 0px;
+}

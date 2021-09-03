@@ -90,6 +90,19 @@ hr.mid {
     text-align: right;
     font-weight: bold;
     height: 24px;
+    padding-top: 22px;
+    color: rgb(65, 65, 65);
+}
+
+.card-text-discount {
+    text-align: end;
+    position: absolute;
+    left: 200px;
+    bottom: 16px;
+    font-weight: 300;
+    font-size: small;
+    text-decoration: line-through;
+    color: rgb(109, 109, 109);
 }
 
 .morta {
@@ -121,9 +134,18 @@ hr.mid {
 }
 
 .highlight {
-    padding-left: 86px;
+    padding-left: 120px;
+    padding-top: 10px;
     
 }
+
+.highligh-icon {
+    position: absolute;
+    width: 26px;
+    margin-left: 85px;
+    margin-top: 18px;
+}
+
 .hr-highlight {
     margin-left: 85px;
     margin-right: 85px;
@@ -168,4 +190,45 @@ hr.mid {
     position: absolute;
     left: 60px;
     top: 340px;
+}
+
+#codeine {
+    position: absolute;
+    left: 455px;
+    z-index: 1;
+    top: 30px;
+}
+
+.row.logo {
+    position: relative;
+}
+
+.apple-logo {
+    width: 25px;
+    padding-top: 5px;
+    margin-top: 3px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 28px;
+}
+
+/* .row.apple {
+    position: relative;
+} */
+
+.windows-logo {
+    width: 25px;
+    padding-top: 5px;
+    margin-top: 3px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+.linux-logo {
+    width: 25px;
+    padding-top: 5px;
+    margin-top: 3px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 55px;
 }

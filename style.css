@@ -477,3 +477,25 @@ h5 {
     color: rgb(109, 109, 109);
     line-height: 35px;
 }
+
+.whatsgood {
+    padding: 0;
+}
+
+.watgud {
+    flex-wrap: wrap;
+    height: 10px;
+}
+
+.magic {
+ height: 230px;
+ overflow: hidden;
+ width: 400px;
+ 
+}
+
+.colosus {
+    padding: 0;
+    margin-right: 15px;
+}
+

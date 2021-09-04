@@ -56,6 +56,7 @@ div.col-3.before::after {
     height: 480px;
     border: none;
     padding: 0;
+    filter: blur(2px);
     
 }
 
@@ -69,6 +70,15 @@ div.col-3.before::after {
     padding-top: 350px;
     position: absolute;
     padding-left: 30px;
+}
+
+.nowonsale-flex {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.ons-padding {
+    margin-bottom: 140px;
 }
 
 .span1 {
@@ -106,10 +116,7 @@ div.col-3.before::after {
     margin-left: 50px
 }
 
-.nowonsale-flex {
-    flex-wrap: nowrap;
-    justify-content: center;
-}
+
 
 .carousel-control-next-icon{
     margin-left: 139px;
@@ -125,6 +132,17 @@ div.col-3.before::after {
     border-radius: 50px;
     height: 25px;
     width: 25px;
+}
+
+.caroul-btn {
+    background-color: rgb(126, 36, 187);
+    color: white;
+    border-radius: none;
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 88%;
+    z-index: 1;
+    height: 45px
 }
 
 .new-galaxy {
@@ -157,7 +175,7 @@ hr.mid {
     text-align: right;
     font-weight: bold;
     height: 24px;
-    padding-top: 22px;
+    padding-top: 10px;
     color: rgb(65, 65, 65);
     line-height: 0px;
 }
@@ -207,6 +225,8 @@ hr.mid {
     padding-left: 116px;
     padding-top: 12px;
     margin-top: 3px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -278,20 +298,42 @@ hr.mid {
 .apple-logo {
     width: 15px;
     padding-top: 20px;
-    margin-top: 3px;
+    margin-top: 15px;
     position: absolute;
     margin-bottom: 0px;
     margin-left: 16px;
 }
 
-/* .row.apple {
+.unviversalis {
     position: relative;
-} */
+    border-top: 1px solid #bbbbbb;
+}
+
+.container.mt-5.unviversalis h4 {
+    position: absolute;
+    z-index: 1;
+    margin-top:-40px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+    font-family: 'Lato', sans-serif;
+}
+
+.container.mt-5.unviversalis .beu{
+    position: absolute;
+    z-index: 1;
+    margin-top:-40px;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+    font-family: 'Lato', sans-serif;
+    width: 25px;
+    margin-left: -10px;
+}
 
 .windows-logo {
     width: 15px;
     padding-top: 20px;
-    margin-top: 3px;
+    margin-top: 15px;
     position: absolute;
     margin-bottom: 0px;
 }
@@ -299,7 +341,7 @@ hr.mid {
 .linux-logo {
     width: 15px;
     padding-top: 20px;
-    margin-top: 3px;
+    margin-top: 15px;
     position: absolute;
     margin-bottom: 0px;
     margin-left: 33px;
@@ -330,21 +372,24 @@ h5 {
 .on-sale {
    color: rgb(65, 65, 65);
    text-align: start;
-   margin-left: -100px;
+   margin-left: -85px;
    font-family: 'Lato', sans-serif;
    padding-top: 4px;
+   font-weight: 500;
 }
 
 .percentage {
     position: absolute;
     left: 85px;
-    width: 20px;
-    padding-top: 8px;
+    width: 25px;
+    padding-top: 6px;
 }
 
 .onsale-cards{
     position: relative;
 }
+
+
 
 .carousel-indicators {
     margin: -37px;
@@ -374,4 +419,61 @@ h5 {
 .grey-indicator { 
     color: #000000 !important;
     
+}
+
+.discount-badge {
+    color: white;
+    background-color:purple;
+    border-color: purple;
+    width: 75px;
+    font-weight: bold;
+    position: absolute;
+    top: 212px;
+    left: 112px;
+}
+
+.caru-h5 {
+    text-align: left;
+}
+
+.windows-logo1 {
+    width: 15px;
+    padding-top: 20px;
+    margin-top: 5px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+.discount-badge1 {
+    color: white;
+    background-color:purple;
+    border-color: purple;
+    width: 75px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 106px;
+}
+
+.card-text.price1 {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-weight: bold;
+    height: 24px;
+    padding-top: 40px;
+    color: rgb(65, 65, 65);
+    line-height: 0px;
+}
+
+.card-text-discount1 {
+    font-family: 'Lato', sans-serif;
+    text-align: end;
+    position: absolute;
+    left: 200px;
+    bottom: 18px;
+    font-weight: 400;
+    font-size: small;
+    text-decoration: line-through;
+    color: rgb(109, 109, 109);
+    line-height: 35px;
 }

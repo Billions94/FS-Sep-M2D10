@@ -110,31 +110,35 @@
 
    <section class='corousel container'>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators carus-ind">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="6" ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./gog-assets/carousel1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5 class='caru-h5'>Sale up to 80%</h5>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./gog-assets/carousel2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5 class='caru-h5'>Sale up to 80%</h5>
+
             </div>
           </div>
           <div class="carousel-item">
             <img src="./gog-assets/carousel3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5 class='caru-h5'>Sale up to 80%</h5>
             </div>
           </div>
         </div>
@@ -146,6 +150,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+        <button type="button" class="btn btn-outline-secondary caroul-btn">Browse</button>
       </div>
     </section>
 
@@ -169,6 +174,9 @@
                    <img class='linux-logo' src="https://img.icons8.com/metro/50/000000/linux.png"/>
                   <p class="card-text price pt-5">€22.09</p>
                   <p class='card-text-discount'>€64.99</p>
+                    <button type="button" class="btn btn-primary discount-badge">
+                        -66% <span class="badge badge-light"></span>
+                    </button>
                 </div>
               </div>
               <div class="card col p-0 mr-4" ">
@@ -177,8 +185,11 @@
                   <p class="card-text title">Darkest Hours</p>
                    <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
                    <img class='windows-logo' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
-                  <p class="card-text price">€22.49</p>
+                  <p class="card-text price pt-5">€22.49</p>
                   <p class='card-text-discount'>€24.99</p>
+                    <button type="button" class="btn btn-primary discount-badge">
+                        -10% <span class="badge badge-light"></span>
+                    </button>
                 </div>
               </div>
               <div class="card col p-0" ">
@@ -188,8 +199,11 @@
                    <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
                    <img class='windows-logo' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
                    <img class='linux-logo' src="https://img.icons8.com/metro/50/000000/linux.png"/>
-                  <p class="card-text price">€14.49</p>
+                  <p class="card-text price pt-5">€14.49</p>
                   <p class='card-text-discount'>€16.99</p>
+                    <button type="button" class="btn btn-primary discount-badge">
+                        -15% <span class="badge badge-light"></span>
+                    </button>
                 </div>
               </div>
         </div>
@@ -232,7 +246,7 @@
         <nav class="nav second justify-content-center">
             <img class="percentage" src="https://img.icons8.com/ios-filled/50/000000/discount--v1.png"/>
             <h4 class='on-sale'>Now on sale</h4>
-            <a class="secondbar nav-link active" href="#">Featured deals</a>
+            <a class="secondbar nav-link active pl-4" href="#">Featured deals</a>
             <a class="secondbar nav-link" href="#">Aquanox Deep Descent</a>
             <a class="secondbar nav-link" href="#">Weekly Sale</a>
             <a class="secondbar nav-link " href="#">Paradox Grand Strategy Collection</a>
@@ -252,7 +266,7 @@
 
 <!--- Section Now On Sale  Cards-->
 
-      <section class='container mb-5  '>
+      <section class='container  ons-padding'>
                 <!-- <div class="row nowonsale">
                     <div class="col">
                         <div class="card bg-dark text-white">
@@ -347,40 +361,58 @@
       </section>
 
 <!---- Section Build Europe Unviversalis -->      
-<hr class='hr-highlight'>
 
-      <section class='container mt-5'>
+
+      <section class='container mt-5 unviversalis'>
+                <h4>Build Europe Unviversalis</h4>
+                <img class='beu' src="https://img.icons8.com/ios-filled/50/000000/star--v1.png"/>
               <div class="row apple">
-                <div class="card col p-0 mr-4" ">
+                <div class="card col p-0 mr-4 mt-3">
                     <img src="./gog-assets/tile (26).jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <p class="card-text title">Rim World</p>
-                      <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
-                      <p class="card-text price">€18.99</p>
+                      <img class='windows-logo1' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
+                      <p class="card-text price1">€18.99</p>
+                      <p class='card-text-discount1'>€16.99</p>
+                      <button type="button" class="btn btn-primary discount-badge1">
+                        -15% <span class="badge badge-light"></span>
+                    </button>
                     </div>
                   </div>
-                  <div class="card col p-0 mr-4" ">
+                  <div class="card col p-0 mr-4 mt-3">
                     <img src="./gog-assets/tile (10).jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <p class="card-text title">Armed and Dangerous</p>
-                      <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
-                      <p class="card-text price">€22.09</p>
+                      <img class='windows-logo1' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
+                      <p class="card-text price1">€22.09</p>
+                      <p class='card-text-discount1'>€16.99</p>
+                      <button type="button" class="btn btn-primary discount-badge1">
+                        -15% <span class="badge badge-light"></span>
+                    </button>
                     </div>
                   </div>
-                  <div class="card col p-0 mr-4" ">
+                  <div class="card col p-0 mr-4 mt-3">
                     <img src="./gog-assets/tile (15).jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <p class="card-text title">Darkest Hours</p>
-                      <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
-                      <p class="card-text price">€22.49</p>
+                      <img class='windows-logo1' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
+                      <p class="card-text price1">€22.49</p>
+                      <p class='card-text-discount1'>€16.99</p>
+                      <button type="button" class="btn btn-primary discount-badge1">
+                        -15% <span class="badge badge-light"></span>
+                    </button>
                     </div>
                   </div>
-                  <div class="card col p-0" ">
+                  <div class="card col p-0 mt-3">
                     <img src="./gog-assets/tile (12).jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <p class="card-text title">Dark Quest</p>
-                      <img class='apple-logo' src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
-                      <p class="card-text price">€14.49</p>
+                      <img class='windows-logo1' src="https://img.icons8.com/ios-filled/50/000000/windows-logo.png"/>
+                      <p class="card-text price1">€14.49</p>
+                      <p class='card-text-discount1'>€16.99</p>
+                      <button type="button" class="btn btn-primary discount-badge1">
+                        -15% <span class="badge badge-light"></span>
+                    </button>
                     </div>
                   </div>
               </div>
@@ -388,7 +420,7 @@
       </section>
 
       <!--- Section What's good -->
-       <h2>What's good</h2>
+   
 <hr class='hr-highlight'>
 
       <section class='container'>
